@@ -2,8 +2,6 @@
 
 A custom [Gymnasium](https://gymnasium.farama.org/) environment that simulates a night out at a bar. An agent chooses drinks over time while managing intoxication (BAC), health, and mood — under a perception of its own drunkenness that is deliberately biased and unreliable, the way a real drinker's is.
 
-This version (`v1`) replaces `v0`'s "maximize BAC" incentive structure with a reward function designed to make the agent balance multiple competing goals, in a way that loosely mirrors how people actually reason about drinking.
-
 ## Overview
 
 | | |
