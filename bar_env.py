@@ -3,7 +3,7 @@ import gymnasium as gym
 from gymnasium import spaces
 
 
-class BarEnv_v0(gym.Env):
+class BarEnv_v1(gym.Env):
     """
     Кастомная среда "Бар" (v1).
 
