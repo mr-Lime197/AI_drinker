@@ -197,4 +197,3 @@ print(f"Episode finished. Total reward: {total_reward:.2f}, drinks tried: {info[
 
 - This is a **toy simulation for RL research/education**, not a physiological or medical model. The BAC thresholds, decay rate, and reward weights are illustrative approximations, not clinically validated values, and nothing here should be read as guidance about real drinking.
 - `bias_k`, `noise_k`, `target_bac`, and the various weights are all tunable — the specific numbers encode a particular design intent (moderate drinking > extreme drinking), but the relative balance between terms is worth sweeping/tuning for your own training setup.
-- The natural BAC decay comment-vs-code discrepancy from `v0` (documented as "every 10 steps," implemented as every 2) has been left as-is in the code (`time % 2 == 0`) — the docs here describe the actual implemented behavior.
